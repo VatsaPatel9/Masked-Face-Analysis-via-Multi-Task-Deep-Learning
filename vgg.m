@@ -12,8 +12,8 @@ net = load('vgg-face.mat') ;
 %% 'panda.png' + 0.7 * 'namatode_panda.png' = dishcloth;
 %% 'trump.png' + 0.1 *
 
-myFolder = 'C:\Users\19378\Documents\MATLAB\MixedReality\vgg\data';
-csvFiles = 'C:\Users\19378\Documents\MATLAB\MixedReality\vgg\csvfiles';
+myFolder = '.\data';
+csvFiles = '.\csvfiles';
 
 filePattern = fullfile('*.JPG'); % Change to whatever pattern you need.
 theFiles = dir(filePattern);
